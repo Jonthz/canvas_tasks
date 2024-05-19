@@ -1,0 +1,55 @@
+1. **id**: Identificador único de la tarea.
+2. **description**: Descripción de la tarea.
+3. **due_at**: Fecha y hora de vencimiento.
+4. **unlock_at**: Fecha y hora en que la tarea se desbloquea.
+5. **lock_at**: Fecha y hora en que la tarea se bloquea.
+6. **points_possible**: Puntos máximos posibles.
+7. **grading_type**: Tipo de calificación.
+8. **assignment_group_id**: ID del grupo de asignación.
+9. **grading_standard_id**: ID del estándar de calificación.
+10. **created_at**: Fecha y hora de creación.
+11. **updated_at**: Fecha y hora de la última actualización.
+12. **peer_reviews**: Indica si hay revisiones por pares.
+13. **automatic_peer_reviews**: Indica si las revisiones por pares son automáticas.
+14. **position**: Posición en la lista de tareas.
+15. **grade_group_students_individually**: Indica si los estudiantes en grupo se califican individualmente.
+16. **anonymous_peer_reviews**: Indica si las revisiones por pares son anónimas.
+17. **group_category_id**: ID de la categoría del grupo.
+18. **post_to_sis**: Indica si se publica en el SIS.
+19. **moderated_grading**: Indica si la calificación es moderada.
+20. **omit_from_final_grade**: Indica si se omite de la calificación final.
+21. **intra_group_peer_reviews**: Indica si hay revisiones por pares dentro del grupo.
+22. **anonymous_instructor_annotations**: Indica si las anotaciones del instructor son anónimas.
+23. **anonymous_grading**: Indica si la calificación es anónima.
+24. **graders_anonymous_to_graders**: Indica si los calificadores son anónimos entre sí.
+25. **grader_count**: Número de calificadores.
+26. **grader_comments_visible_to_graders**: Indica si los comentarios de los calificadores son visibles entre ellos.
+27. **final_grader_id**: ID del calificador final.
+28. **grader_names_visible_to_final_grader**: Indica si los nombres de los calificadores son visibles para el calificador final.
+29. **allowed_attempts**: Número de intentos permitidos.
+30. **secure_params**: Parámetros seguros.
+31. **course_id**: ID del curso al que pertenece la tarea.
+32. **name**: Nombre de la tarea.
+33. **submission_types**: Tipos de entrega permitidos.
+34. **has_submitted_submissions**: Indica si se han enviado entregas.
+35. **due_date_required**: Indica si la fecha de entrega es obligatoria.
+36. **max_name_length**: Longitud máxima del nombre de la tarea.
+37. **in_closed_grading_period**: Indica si está en un periodo de calificación cerrado.
+38. **is_quiz_assignment**: Indica si es una tarea tipo quiz.
+39. **can_duplicate**: Indica si la tarea se puede duplicar.
+40. **original_course_id**: ID del curso original (si se duplicó).
+41. **original_assignment_id**: ID de la tarea original (si se duplicó).
+42. **original_assignment_name**: Nombre de la tarea original (si se duplicó).
+43. **original_quiz_id**: ID del quiz original (si se duplicó).
+44. **workflow_state**: Estado del flujo de trabajo.
+45. **muted**: Indica si la tarea está silenciada.
+46. **html_url**: URL de la tarea en Canvas.
+47. **quiz_id**: ID del quiz asociado.
+48. **anonymous_submissions**: Indica si las entregas son anónimas.
+49. **published**: Indica si la tarea está publicada.
+50. **only_visible_to_overrides**: Indica si solo es visible para anulaciones.
+51. **locked_for_user**: Indica si está bloqueada para el usuario.
+52. **submissions_download_url**: URL para descargar entregas.
+53. **post_manually**: Indica si se publica manualmente.
+54. **anonymize_students**: Indica si los estudiantes son anonimizados.
+55. **require_lockdown_browser**: Indica si requiere un navegador de bloqueo.

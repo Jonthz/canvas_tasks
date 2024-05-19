@@ -1,0 +1,19 @@
+# Entornos virtuales
+venv/
+.env/
+*.env
+
+# Archivos de configuración de Python
+__pycache__/
+*.pyc
+
+# Archivos de configuración de IDE
+.idea/
+.vscode/
+
+# Archivos de log
+*.log
+
+# Tokens
+azure_sec.txt
+token.txt
